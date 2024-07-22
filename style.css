@@ -149,6 +149,10 @@ label{
   width: 70%;
 }
 
+label::first-letter{
+  text-transform:capitalize ;
+}
+
 .deleteAll {
   display: flex;
   justify-content: flex-end;
